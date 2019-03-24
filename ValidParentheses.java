@@ -34,6 +34,9 @@ public class ValidParentheses {
             }else if(!stack.isEmpty() && c == ')' && stack.peek() == '('){
                 stack.pop();
             }
+            else{
+                return false;
+            }
         }
         return stack.isEmpty();
     }

@@ -1,1 +1,1 @@
-# Amazon-Practise
+# Leetcode-Practise
